@@ -100,9 +100,9 @@ class BankAccount {
 A constructor is a special method in Java that is called when an object is instantiated. It initializes the new object.
 
 - **Features**:
- * Has the same name as the class.
- + No return type.
- - Initializes object attributes.
+  * Has the same name as the class.
+  + No return type.
+  - Initializes object attributes.
 
 
 Constructor Overloading:
