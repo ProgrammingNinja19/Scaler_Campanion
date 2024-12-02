@@ -91,7 +91,7 @@ class BankAccount {
         }
     }
 }
-
+```
 
 ## 4. Constructors
 Definition:
@@ -105,6 +105,7 @@ Constructor Overloading:
 You can have multiple constructors with different parameters to initialize objects in different ways.
 
 Example Code:
+```
 public class Student {
     String name;
     int age;
@@ -121,4 +122,5 @@ public class Student {
         this.age = age;
     }
 }
+```
 By understanding these foundational concepts, you can effectively design and implement classes in Java, utilizing the powerful paradigm of object-oriented programming. Be sure to practice implementing these concepts in your development environment to deepen your understanding
