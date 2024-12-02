@@ -1,13 +1,14 @@
 
-Comprehensive Revision Notes for Object-Oriented Programming (OOP)
-Introduction to Object-Oriented Programming
+# Comprehensive Revision Notes for Object-Oriented Programming (OOP)
+## Introduction to Object-Oriented Programming
 In this session, we explored key concepts in object-oriented programming (OOP) with a focus on Java. We'll cover what classes and objects are, the principles of encapsulation, constructors, and some tasks to solidify our understanding.
 
-Topics Covered:
-Classes and Objects
-Encapsulation
-Hands-On Task: Bank Account Class
-Constructors
+## Topics Covered:
+1. Classes and Objects
+2. Encapsulation
+3. Hands-On Task: Bank Account Class
+4. Constructors
+
 1. Classes and Objects
 What is a Class?
 A class in Java serves as a blueprint for creating objects. It defines the properties (data attributes) and behaviors (methods) for the objects.
