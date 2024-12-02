@@ -43,11 +43,12 @@ student1.printDetails();
 
 ## 2. Encapsulation
 Definition:
-Encapsulation refers to the bundling of data and methods that operate on that data into a single unit or class. It also restricts access to some of the object's components for better control and security【6:10†transcript.txt】【6:18†handwritten.pdf】.
+Encapsulation refers to the bundling of data and methods that operate on that data into a single unit or class. It also restricts access to some of the object's components for better control and security.
 
 Access Modifiers: Control access to class members using modifiers such as private, public, protected, and default.
-Getters and Setters: These are methods used to access and update private data fields from outside the class【6:16†transcript.txt】.
+Getters and Setters: These are methods used to access and update private data fields from outside the class【.
 Example:
+```
 class BankAccount {
     private double balance;
     private String ownerName;
@@ -64,6 +65,8 @@ class BankAccount {
         }
     }
 }
+```
+
 ## 3. Hands-On Task: Bank Account Class
 Task Description:
 Create a Java class named BankAccount with fields for balance (double) and ownerName (String). Implement deposit and withdraw methods with basic validation【6:12†transcript.txt】【6:18†handwritten.pdf】.
@@ -71,6 +74,7 @@ Create a Java class named BankAccount with fields for balance (double) and owner
 Deposit Method: Increase balance by the deposit amount, ensuring the amount is positive.
 Withdraw Method: Decrease balance by the withdrawal amount, ensuring the balance does not become negative.
 Example Code:
+```
 class BankAccount {
     private double balance;
     private String ownerName;
@@ -91,14 +95,14 @@ class BankAccount {
 
 ## 4. Constructors
 Definition:
-A constructor is a special method in Java that is called when an object is instantiated. It initializes the new object【6:13†transcript.txt】.
+A constructor is a special method in Java that is called when an object is instantiated. It initializes the new object.
 
 Features:
 Has the same name as the class.
 No return type.
-Initializes object attributes【6:18†handwritten.pdf】.
+Initializes object attributes.
 Constructor Overloading:
-You can have multiple constructors with different parameters to initialize objects in different ways【6:17†transcript.txt】.
+You can have multiple constructors with different parameters to initialize objects in different ways.
 
 Example Code:
 public class Student {
