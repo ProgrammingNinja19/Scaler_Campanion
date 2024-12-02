@@ -41,7 +41,7 @@ student1.course = "Computer Science";
 student1.printDetails();
 ```
 
-2. Encapsulation
+## 2. Encapsulation
 Definition:
 Encapsulation refers to the bundling of data and methods that operate on that data into a single unit or class. It also restricts access to some of the object's components for better control and security【6:10†transcript.txt】【6:18†handwritten.pdf】.
 
@@ -64,7 +64,7 @@ class BankAccount {
         }
     }
 }
-3. Hands-On Task: Bank Account Class
+### 3. Hands-On Task: Bank Account Class
 Task Description:
 Create a Java class named BankAccount with fields for balance (double) and ownerName (String). Implement deposit and withdraw methods with basic validation【6:12†transcript.txt】【6:18†handwritten.pdf】.
 
@@ -87,7 +87,9 @@ class BankAccount {
         }
     }
 }
-4. Constructors
+
+
+### 4. Constructors
 Definition:
 A constructor is a special method in Java that is called when an object is instantiated. It initializes the new object【6:13†transcript.txt】.
 
