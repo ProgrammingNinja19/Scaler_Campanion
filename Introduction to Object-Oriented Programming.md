@@ -21,7 +21,8 @@ An object is an instance of a class. Objects have their own state and behaviors.
 
 + **Creation**: To create an object, use the new keyword. For example: `Student student1 = new Student();`
 - **Dot Operator**: Access object properties and methods using the dot operator: `student1.name = "John";`
-Example Code:
+### Example Code:
+```
 class Student {
     String name;
     int age;
@@ -30,7 +31,7 @@ class Student {
     void printDetails() {
         System.out.println("Name: " + name + ", Age: " + age + ", Course: " + course);
     }
-}
+}    
 
 // Creating objects
 Student student1 = new Student();
@@ -38,6 +39,8 @@ student1.name = "John Doe";
 student1.age = 20;
 student1.course = "Computer Science";
 student1.printDetails();
+```
+
 2. Encapsulation
 Definition:
 Encapsulation refers to the bundling of data and methods that operate on that data into a single unit or class. It also restricts access to some of the object's components for better control and security【6:10†transcript.txt】【6:18†handwritten.pdf】.
