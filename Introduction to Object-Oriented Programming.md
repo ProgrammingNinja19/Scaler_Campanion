@@ -45,9 +45,10 @@ student1.printDetails();
 Definition:
 Encapsulation refers to the bundling of data and methods that operate on that data into a single unit or class. It also restricts access to some of the object's components for better control and security.
 
-Access Modifiers: Control access to class members using modifiers such as private, public, protected, and default.
-Getters and Setters: These are methods used to access and update private data fields from outside the class【.
-Example:
+* **Access Modifiers**: Control access to class members using modifiers such as private, public, protected, and default.
+- **Getters and Setters**: These are methods used to access and update private data fields from outside the class【.
+
+### Example:
 ```
 class BankAccount {
     private double balance;
@@ -68,12 +69,13 @@ class BankAccount {
 ```
 
 ## 3. Hands-On Task: Bank Account Class
-Task Description:
-Create a Java class named BankAccount with fields for balance (double) and ownerName (String). Implement deposit and withdraw methods with basic validation【6:12†transcript.txt】【6:18†handwritten.pdf】.
+### Task Description:
+Create a Java class named BankAccount with fields for balance (double) and ownerName (String). Implement deposit and withdraw methods with basic validation.
 
-Deposit Method: Increase balance by the deposit amount, ensuring the amount is positive.
-Withdraw Method: Decrease balance by the withdrawal amount, ensuring the balance does not become negative.
-Example Code:
++ **Deposit Method**: Increase balance by the deposit amount, ensuring the amount is positive.
++ **Withdraw Method**: Decrease balance by the withdrawal amount, ensuring the balance does not become negative.
+
+### Example Code:
 ```
 class BankAccount {
     private double balance;
@@ -94,13 +96,15 @@ class BankAccount {
 ```
 
 ## 4. Constructors
-Definition:
+### Definition:
 A constructor is a special method in Java that is called when an object is instantiated. It initializes the new object.
 
-Features:
-Has the same name as the class.
-No return type.
-Initializes object attributes.
+- **Features**:
+ * Has the same name as the class.
+ + No return type.
+ - Initializes object attributes.
+
+
 Constructor Overloading:
 You can have multiple constructors with different parameters to initialize objects in different ways.
 
