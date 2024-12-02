@@ -9,13 +9,14 @@ In this session, we explored key concepts in object-oriented programming (OOP) w
 3. Hands-On Task: Bank Account Class
 4. Constructors
 
-1. Classes and Objects
-What is a Class?
+## 1. Classes and Objects
+### What is a Class?
 A class in Java serves as a blueprint for creating objects. It defines the properties (data attributes) and behaviors (methods) for the objects.
 
-Entities & Attributes: For example, a Student entity might have attributes like ID, name, age, etc., and behaviors such as registering for a course.
-Blueprint Analogy: Like a building blueprint, defining a class doesn't construct objects; it merely sketches the potential for them 【6:0†transcript.txt】.
-What is an Object?
+- **Entities & Attributes:** For example, a Student entity might have attributes like ID, name, age, etc., and behaviors such as registering for a course.
+* **Blueprint Analogy:** Like a building blueprint, defining a class doesn't construct objects; it merely sketches the potential for them 【6:0†transcript.txt】.
+
+### What is an Object?
 An object is an instance of a class. Objects have their own state and behaviors.
 
 Creation: To create an object, use the new keyword. For example: Student student1 = new Student();.
